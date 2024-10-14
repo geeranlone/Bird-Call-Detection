@@ -1,9 +1,9 @@
 # Bird Call Detection
-This project provides a neural network-based solution to detect Capuchinbird calls in audio files. It processes .mp3 files, extracts features in the form of spectrograms, and classifies the presence of Capuchinbird calls using a Convolutional Neural Network (CNN) model. This repository includes code for both training and inference, as well as an interactive Jupyter notebook frontend for users to upload audio files and obtain predictions.
+This project provides a neural network-based solution to detect Capuchin bird calls in audio files. It processes .mp3 files, extracts features in the form of spectrograms, and classifies the presence of Capuchin bird calls using a Convolutional Neural Network (CNN) model. This repository includes code for both training and inference, as well as an interactive Jupyter notebook frontend for users to upload audio files and obtain predictions.
 
 
 # Overview
-The main goal of this project is to detect Capuchinbird calls from forest recordings. The CNN model takes audio files as input, preprocesses them into spectrograms, and predicts whether the audio contains Capuchinbird calls. A Jupyter notebook frontend using ipywidgets allows users to interact with the trained model by uploading audio files and getting real-time predictions.
+The main goal of this project is to detect Capuchin bird calls from forest recordings. The CNN model takes audio files as input, preprocesses them into spectrograms, and predicts whether the audio contains Capuchin bird calls. A Jupyter notebook frontend using ipywidgets allows users to interact with the trained model by uploading audio files and getting real-time predictions.
 
 # Features
 Preprocessing of audio files (WAV/MP3) to 16 kHz mono.
